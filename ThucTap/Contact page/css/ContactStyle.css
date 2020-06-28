@@ -1,0 +1,117 @@
+.slider-area .hero-caption h2 {
+	font-size: 70px;
+	font-weight: 700;
+}
+
+.slider-height {
+	background-image: url("../images/23-hinh-nen-mau-sang-bat-mat-va-tuyet-dep-1487822707-9.png");
+	min-height: 500px;
+}
+
+.map-style {
+	position: absolute;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    border-width: 0px;
+    margin: 0px;
+}
+
+.title {
+	font-size: 27px;
+    font-weight: 600;
+	margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#d1 {
+	height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(229, 227, 223);
+}
+
+#map {
+	height: 480px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-area .footer-title ul li {
+	margin-bottom: 15px;
+	color: #303030;
+	transition: 0.4s;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-area .footer-title ul li a {
+	color: #616161;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+.footer-area .footer-title ul li a:hover {
+	color: red;
+}
+
+.footer-area .footer-title ul li:hover {
+	margin-bottom: 15px;
+	margin-left: 5px;
+	transition: 0.4s;
+}
+
+#heart {
+	color: red;
+}
+
+.footer-copyright p a {
+	color: red;
+	text-decoration: none;
+}
+
+.footer-copyright .footer-social a {
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.footer-copyright .footer-social a i {
+	transition: 0.6s;
+}
+
+.footer-copyright .footer-social a i:hover {
+	color: red;
+	transform: rotateY(180deg);
+	transition: 0.6s;
+}
+
+.footer-area {
+	padding-bottom: 150px;
+	padding-top: 130px;
+}
+
+#ScrollUp {
+	position: fixed;
+    z-index: 2147483647;
+    display: block;
+	background: #ff2020;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+}

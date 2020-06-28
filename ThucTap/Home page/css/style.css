@@ -1,0 +1,346 @@
+.footer-area .footer-title ul li {
+	margin-bottom: 15px;
+	color: #303030;
+	transition: 0.4s;
+}
+
+.slider-height {
+	background-image: url("../images/23-hinh-nen-mau-sang-bat-mat-va-tuyet-dep-1487822707-9.png");
+	min-height: 700px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-area .footer-title ul li a {
+	color: #616161;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+.footer-area .footer-title ul li a:hover {
+	color: red;
+}
+
+.footer-area .footer-title ul li:hover {
+	margin-bottom: 15px;
+	margin-left: 5px;
+	transition: 0.4s;
+}
+
+#heart {
+	color: red;
+}
+
+.footer-copyright p a {
+	color: red;
+	text-decoration: none;
+}
+
+.footer-copyright .footer-social a {
+	text-decoration: none;
+	margin-left: 20px;
+}
+
+.footer-copyright .footer-social a i {
+	transition: 0.6s;
+}
+
+.footer-copyright .footer-social a i:hover {
+	color: red;
+	transform: rotateY(180deg);
+	transition: 0.6s;
+}
+
+.footer-area {
+	padding-bottom: 150px;
+	padding-top: 130px;
+}
+
+#ScrollUp {
+	position: fixed;
+    z-index: 2147483647;
+    display: block;
+	background: #ff2020;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+}
+
+.hero_caption h1 {
+	font-size: 80px;
+    font-weight: 700;
+    line-height: 1.2;
+	margin-top: 250px;
+}
+
+@keyframes watchAnimation {
+	0% {transform: none;}
+	50% {transform: scale(1.05,1.05);}
+  	100% {transform: none;}
+}
+
+.watch_img {
+	animation-name: watchAnimation;
+  	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+}
+
+.btn {
+	background-color: #626262;
+	border: none;
+}
+
+.new-arrivals-area .section-title h1 {
+	font-family: Lucida Sans, sans-serif;
+	font-size: 45px;
+}
+
+.new-product .product-caption h3 a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #4D4D4D;
+}
+.new-product .product-caption p {
+	color: red;
+}
+
+.new-product .product-img {
+  height: 489px; 
+  overflow: hidden; 
+}
+
+.new-product .product-img img {
+  transition: transform 0.5s ease;
+}
+
+.new-product .product-img:hover img {
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.new-product .product-caption h3 a {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.new-product .product-caption h3 a {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+
+.gallery .big {
+	position: relative;
+    height: 690px;
+    background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.gallery {
+	position: relative;
+    overflow: hidden;
+}
+
+.gallery .small {
+	position: relative;
+    height: 365px;
+    background-repeat: no-repeat;
+}
+
+.gallery img {
+  transition: transform 0.5s ease;
+}
+
+.gallery:hover img {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 576px) {
+	.gallery .gallery-img img {
+  		height: 489px; 
+		width: 100%;
+ 		overflow: hidden; 
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.pic-4 {
+		margin-top: 200px;
+	}
+}
+
+.popular-items-area .popular-items-title p {
+	color: #5F5F5F;
+}
+
+.popular-items-area .popular-items .popular-items-img .img-caption span {
+	color: white;
+    background: red;
+    padding: 20px 0;
+    display: block;
+    cursor: pointer;
+}
+
+.popular-items-area .popular-items .popular-items-img .img-caption {
+	visibility: hidden;
+	position: absolute;
+    bottom: -20%;
+    width: 100%;
+    opacity: 0;
+	transition: all .4s ease-out 0s;
+}
+
+.popular-items-area .popular-items .popular-items-img {
+	overflow: hidden;
+    margin-bottom: 19px;
+    position: relative;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.popular-items-area .popular-items .popular-items-img img {
+		width: 240px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.slider-area .single-slider .watch_img img {
+		height: 700px;
+		max-width: 255px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.slider-area .single-slider .watch_img img {
+		height: 742px;
+		max-width: 255px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.slider-area .single-slider .watch_img img {
+		height: 862px;
+		max-width: 255px;
+	}
+}
+
+.popular-items-area .popular-items .popular-items-img .btn {
+  background-color: #004A7F;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Monaco;
+  font-size: 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none; 
+}
+
+@keyframes glowing {
+  0% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+  50% { background-color: #0094FF; box-shadow: 0 0 10px #0094FF; }
+  100% { background-color: #004A7F; box-shadow: 0 0 3px #004A7F; }
+}
+ 
+.popular-items-area .popular-items .popular-items-img .btn {
+  animation: glowing 1500ms infinite;
+}
+
+.popular-items-area .popular-items .popular-items-caption h3 a {
+	color: black;
+	text-decoration: none;
+}
+
+.popular-items-area .more-products-btn a button {
+	height: 60px;
+	background-color: red;
+ 	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Monaco;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+}
+
+@keyframes MoreProductsBtn {
+  0% { background-color: green; box-shadow: 0 0 3px green; }
+  50% { background-color: #00DB19; box-shadow: 0 0 10px #00DB19; }
+  100% { background-color: green; box-shadow: 0 0 3px green; }
+}
+ 
+.popular-items-area .more-products-btn a button {
+  animation: MoreProductsBtn 1500ms infinite;
+}
+
+.video-area .video-wrap .play-vid button {
+	color: white;
+	background-color: red;
+}
+
+.choice-area .watch-details {
+	font-size: 25px;
+}
+
+.choice-area .watch-details p {
+	font-size: 15px;
+	color: #9F9F9F;
+}
+
+.choice-area .watch-details a button {
+	height: 60px;
+	background-color: orange;
+ 	border: none;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Monaco;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	text-decoration: none;
+}
+
+@keyframes ShowWatchesBtn {
+  0% { background-color: orange; box-shadow: 0 0 3px orange; }
+  50% { background-color: #DEA013; box-shadow: 0 0 10px #DEA013; }
+  100% { background-color: orange; box-shadow: 0 0 3px orange; }
+}
+ 
+.choice-area .watch-details a button {
+  	animation: ShowWatchesBtn 1500ms infinite;
+}
+
+.method-area .method-wrapper {
+	background: red;
+}
+
+.method-area .method-wrapper .single-method i {
+	color: white;
+	font-size: 40px;
+}
+
+.method-area .method-wrapper .single-method h5 {
+	color: white;
+}
+
+.method-area .method-wrapper .single-method p {
+	color: #C6C6C6;
+}
